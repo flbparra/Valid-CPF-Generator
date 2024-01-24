@@ -12,4 +12,4 @@ if service == 1:
     print(cpf_package.cpf_init())
 
 else:
-    print('Serviço indisponível!')
+    print(cpf_package.input_cpf())
