@@ -36,7 +36,7 @@ def cpf_init():
     #gerando digito um e add no novo cpf
     cpf_digitos = cpf_generator(cpf_digitos)
 
-    #versão final do cpf
+    #versão final do cpf - com 11 digitos.
     cpf_gerado = cpf_generator(cpf_digitos)
 
     return cpf_gerado
