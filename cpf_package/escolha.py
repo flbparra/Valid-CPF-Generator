@@ -9,6 +9,11 @@ def choice_service():
 
         try:
             escolha = int(input('Digite a opção desejada: '))
+            if escolha in (1,2):
+                return escolha
+            else:
+                print('Digite 1 ou 2 (para escolher o serviço)')
+                continue 
 
         except ValueError as error:
             print(error.__class__.__name__ ,'- Digite 1 ou 2 (para escolher o serviço)')

@@ -9,7 +9,7 @@ import cpf_package
 service = cpf_package.choice_service()
 
 if service == 1:
-    print(cpf_package.cpf_init())
+   print(cpf_package.cpf_init())
 
 else:
-    print(cpf_package.input_cpf())
+   print(cpf_package.input_cpf())
